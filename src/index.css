@@ -22,7 +22,11 @@
 
 @layer utilities {
     .padding {
+<<<<<<< HEAD
         @apply sm:px-16 px-8 sm: py-24 py-12;
+=======
+        @apply sm:px-16 px-8 sm:py-24 py-12;
+>>>>>>> 241d89f (chore: add section components)
     }
     .padding-x {
         @apply sm:px-16 px-8;
