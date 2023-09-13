@@ -1,8 +1,10 @@
-import {Footer,Hero,PorpularProducts,Services,SpecialOffer,Subscribe,CustomerReviews, SuperQuality} from './sections'
+import Nav from './components/Nav';
+import {Footer,Hero,PorpularProducts,Services,SpecialOffer,Subscribe,CustomerReviews, SuperQuality} from './sections';
+
 const App = () => {
   return (
     <main className='relative'>
-      {/*<Nav/>*/}
+      <Nav/>
       <section className='xl:padding-1 wide:padding-r padding-b'>
         <Hero/>
       </section>
